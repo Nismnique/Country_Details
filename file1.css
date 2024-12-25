@@ -1,0 +1,85 @@
+/* General styles */
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #9f5cc0, #6983c7);
+    color: #fff;
+}
+
+h1 {
+    font-weight: bold;
+    color: #e3f2fd;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form styling */
+#searchForm input {
+    border: none;
+    background: #2e3b47;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#searchForm input::placeholder {
+    color: #bdc3c7;
+}
+
+#searchForm input:focus {
+    outline: none;
+    background: #5c3e61;
+}
+
+#searchForm button {
+    background: #007bff;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#searchForm button:hover {
+    background: #0056b3;
+}
+
+/* Card styles for results */
+.card {
+    background: #1c1c2b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.card h5 {
+    color: #e3f2fd;
+}
+
+.card p {
+    color: #d3d3d3;
+}
+
+.card .btn {
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.card .btn:hover {
+    background: #357ab8;
+}
+
+
+.container mt-4{
+    
+   font-family: "Sour Gummy", sans-serif;
+   font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+}
+      
