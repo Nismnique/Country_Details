@@ -34,7 +34,7 @@ function displayResults(data) {
 
 function getWeather(capital, countryName) {
     var key = "4ceb410ca92e40fcb1385745240312";
-    var url = `http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${capital}&days=3&aqi=no&alerts=no`;
+    var url = `https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${capital}&days=3&aqi=no&alerts=no`;
 
     fetch(url)
         .then(response => response.json())
