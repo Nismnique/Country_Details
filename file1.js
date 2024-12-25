@@ -57,11 +57,11 @@ function getWeather(capital, countryName) {
          
             for (let dailyForecast of forecastDays) {
                 currentData += `
-                <tr> 
+                <tc> 
                     <td>Date: ${dailyForecast.date}</td> 
                     <td>| Average Temperature: ${dailyForecast.day.avgtemp_c}</td>
                     <td><img src="${dailyForecast.day.condition.icon}"></td>
-                </tr>
+                </tc>
                 `;
             }
             currentData += `</table>`;
